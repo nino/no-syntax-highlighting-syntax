@@ -4,6 +4,7 @@
 atom-text-editor {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
+  -webkit-font-smoothing: none;
 
   .line.cursor-line {
     background-color: @syntax-cursor-line;
@@ -42,7 +43,6 @@ atom-text-editor {
 
     .line-number {
       color: @syntax-gutter-text-color;
-      -webkit-font-smoothing: antialiased;
 
       &.cursor-line {
         color: @syntax-gutter-text-color-selected;
